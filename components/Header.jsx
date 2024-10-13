@@ -27,9 +27,8 @@ const Header = () => {
             <div className="xl:hidden">
                 <MobileNav />
             </div>
-
         </div>
     </header>
-};
+}
 
 export default Header;

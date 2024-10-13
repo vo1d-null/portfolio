@@ -17,7 +17,7 @@ const PageTransition = ({ children }) => {
                 />
                     {children}
                 </div>
-        </AnimatePresence>;
+        </AnimatePresence>
 }
 
 export default PageTransition
