@@ -12,7 +12,7 @@ const Home = () => {
           {/*text*/}
           <div className="text-center xl:text-left">
             <span className="text-xl"> Junior Fullstack DevOps Engineer </span>
-            <h1 className="h1">
+            <h1 className="h1 mb-6">
               Hello Im <br /> <span className="text-accent">Nikolay Gerginov</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
