@@ -14,7 +14,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl"> Junior Fullstack DevOps Engineer </span>
             <h1 className="h1 mb-6">
-              Hello Im <br /> <span className="text-accent">Nikolay Gerginov</span>
+              Hello I&apos;m <br /> <span className="text-accent">Nikolay Gerginov</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
             As a Junior Fullstack DevOps Engineer, I build and improve features using Python and JavaScript, set up CI/CD pipelines, and manage infrastructure with Terraform. I also deploy apps with Docker and Kubernetes while keeping an eye on performance.
@@ -26,7 +26,7 @@ const Home = () => {
                 size="lg" 
                 className="uppercase flex items-center gap-2"
                 >
-                <span> Download CV</span>
+                <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
               {/*socials*/}

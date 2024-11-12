@@ -16,6 +16,9 @@ import {
   SiOpenai, 
 } from "react-icons/si";
 
+import CertificatesGallery from '@/components/CertificatesGallery';
+
+
 const about ={
   title: 'About Me',
   description: 
@@ -187,6 +190,7 @@ const Resume = () => {
         <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
           <TabsTrigger value="experience">Experience</TabsTrigger>
           <TabsTrigger value="education">Education</TabsTrigger>
+          <TabsTrigger value="certificates">Certificates</TabsTrigger>
           <TabsTrigger value="skills">Skills</TabsTrigger>
           <TabsTrigger value="about">About</TabsTrigger>
         </TabsList>
@@ -246,6 +250,17 @@ const Resume = () => {
             </div>
           </TabsContent>
 
+          {/* certificates */}
+          <TabsContent value="certificates" className="w-full">
+            <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <h3 className="text-4xl font-bold">Certificates</h3>
+              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                Here are my certifications that showcase my skills and achievements.
+              </p>
+              <CertificatesGallery />
+            </div>
+          </TabsContent>
+          
           {/* skills */}
           <TabsContent value="skills" className="w-full h-full">
             <div className="flex flex-col gap-[30px]">
